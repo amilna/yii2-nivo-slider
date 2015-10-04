@@ -31,7 +31,7 @@ In view:
 use amilna\nivoslider\NivoSlider;
 
 echo NivoSlider::widget([
-		'dataProvider'=>$dataProvider, // active data provider or just image array
+		// active data provider or just array of image, url, title and description, exp: [["image"=>"test1.jpg","url"=>null],["image"=>"test2.jpg","url"=>null]]
 		'targetId'=>'nivoslider',	//id of rendered nivoslider (the container will constructed by the widget with the given id)		
 		'imageKey'=>'image', //model attribute to be used as background
 		'theme' => 'default', //available themes: default, bar, dark, light
