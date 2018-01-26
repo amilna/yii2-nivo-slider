@@ -26,6 +26,6 @@ class NivoSliderAsset extends AssetBundle
     {
         parent::init();
 
-        $this->js[] = '/nivo-slider/jquery.nivo.slider.pack.js';       
+        $this->js[] = 'nivo-slider/jquery.nivo.slider.pack.js';       
     }    
 }
